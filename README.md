@@ -2,7 +2,7 @@
 
 A full-stack employee directory application built with Django and React. This project was built to learn the Django + React migration pattern — where a traditional Django template app is migrated to a decoupled architecture with a REST API backend and a React TypeScript frontend.
 
-![Employee Directory Screenshot](screenshot.png)
+![Employee Directory Screenshot](assets\employeediretorysc.png)
 
 <!-- Replace screenshot.png with an actual screenshot of your app once deployed -->
 
@@ -11,6 +11,7 @@ A full-stack employee directory application built with Django and React. This pr
 ## Tech Stack
 
 **Backend**
+
 - Python 3.11
 - Django 5.2
 - Django REST Framework
@@ -18,6 +19,7 @@ A full-stack employee directory application built with Django and React. This pr
 - SQLite (development)
 
 **Frontend**
+
 - React 19
 - TypeScript
 - Vite
@@ -116,15 +118,15 @@ Log in at http://localhost:5173 using the superuser credentials you created.
 
 ## API Endpoints
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | /api/token/ | Obtain JWT access and refresh tokens |
-| POST | /api/token/refresh/ | Refresh an access token |
-| GET | /api/employees/ | List all employees (supports ?search=) |
-| POST | /api/employees/ | Create a new employee |
-| GET | /api/employees/{id}/ | Retrieve a single employee |
-| PUT | /api/employees/{id}/ | Update an employee |
-| DELETE | /api/employees/{id}/ | Delete an employee |
+| Method | Endpoint             | Description                            |
+| ------ | -------------------- | -------------------------------------- |
+| POST   | /api/token/          | Obtain JWT access and refresh tokens   |
+| POST   | /api/token/refresh/  | Refresh an access token                |
+| GET    | /api/employees/      | List all employees (supports ?search=) |
+| POST   | /api/employees/      | Create a new employee                  |
+| GET    | /api/employees/{id}/ | Retrieve a single employee             |
+| PUT    | /api/employees/{id}/ | Update an employee                     |
+| DELETE | /api/employees/{id}/ | Delete an employee                     |
 
 All /api/employees/ endpoints require a valid JWT token in the Authorization header:
 
