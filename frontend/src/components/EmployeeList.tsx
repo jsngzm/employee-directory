@@ -133,5 +133,6 @@ const th: React.CSSProperties = {
   padding: 10,
   textAlign: "left",
   borderBottom: "2px solid #ddd",
+  color: "#111",
 };
 const td: React.CSSProperties = { padding: 10, borderBottom: "1px solid #eee" };
