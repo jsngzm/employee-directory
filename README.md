@@ -2,9 +2,7 @@
 
 A full-stack employee directory application built with Django and React. This project was built to learn the Django + React migration pattern — where a traditional Django template app is migrated to a decoupled architecture with a REST API backend and a React TypeScript frontend.
 
-![Employee Directory Screenshot](assets\employeediretorysc.png)
-
-<!-- Replace screenshot.png with an actual screenshot of your app once deployed -->
+![Employee Directory Screenshot](assets/employeediretorysc.png)
 
 ---
 
